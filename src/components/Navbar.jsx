@@ -35,6 +35,13 @@ const Navbar = () => {
             </a>
           ))}
           <a
+            href={`${import.meta.env.BASE_URL}resume.html`}
+            download="Andrew_Ouellette_Resume"
+            className="border border-gray-700 text-gray-300 text-sm font-semibold px-4 py-2 rounded-lg hover:border-teal-400 hover:text-teal-400 transition-all duration-200"
+          >
+            Resume ↓
+          </a>
+          <a
             href="https://www.linkedin.com/in/awouellette/"
             target="_blank"
             rel="noopener noreferrer"
@@ -73,6 +80,13 @@ const Navbar = () => {
               {link}
             </a>
           ))}
+          <a
+            href={`${import.meta.env.BASE_URL}resume.html`}
+            download="Andrew_Ouellette_Resume"
+            className="border border-gray-700 text-gray-300 text-sm font-semibold px-4 py-2 rounded-lg text-center hover:border-teal-400 hover:text-teal-400 transition-all duration-200"
+          >
+            Resume ↓
+          </a>
           <a
             href="https://www.linkedin.com/in/awouellette/"
             target="_blank"

@@ -39,6 +39,13 @@ const Hero = () => {
           >
             Get in Touch
           </a>
+          <a
+            href={`${import.meta.env.BASE_URL}resume.html`}
+            download="Andrew_Ouellette_Resume"
+            className="border border-gray-700 text-gray-300 font-semibold px-8 py-3.5 rounded-lg hover:border-gray-500 hover:text-white transition-all duration-200 text-sm md:text-base"
+          >
+            Resume ↓
+          </a>
         </div>
 
         {/* Scroll indicator */}
