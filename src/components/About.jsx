@@ -1,4 +1,4 @@
-import photo from '../assets/full.png';
+import photo from '../assets/photo.jpg';
 
 const education = [
   {
