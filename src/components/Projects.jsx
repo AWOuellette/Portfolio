@@ -14,8 +14,7 @@ const projects = [
       'Personal budgeting and financial management application. Helps users create budgets, track expenses, and work toward financial goals. Includes full architecture documentation, database schema, and use-case diagrams.',
     tech: ['Java', 'Spring Boot', 'React', 'PostgreSQL', 'Docker'],
     github: 'https://github.com/AWOuellette/SoloSavings',
-    live: 'https://solosavings.wanl.blue',
-    status: 'Deployed',
+    status: 'Complete',
   },
   {
     title: 'AXIOM.MARKETS',
