@@ -1,23 +1,28 @@
 const skillCategories = [
   {
-    title: 'Backend',
+    title: 'Backend & APIs',
     icon: '⚙️',
-    skills: ['Java', 'Spring Boot', 'Spring Framework', 'REST APIs', 'Microservices', 'ABAP'],
+    skills: ['Java', 'Spring Boot', 'ABAP', 'REST APIs', 'OData', 'SAP Gateway', 'RAP'],
+  },
+  {
+    title: 'SAP & Integration',
+    icon: '🔗',
+    skills: ['SAP SuccessFactors', 'SAP CPI', 'SAP PI/XI', 'SAP API Management', 'CDS Views', 'webMethods'],
   },
   {
     title: 'Frontend',
     icon: '🖥️',
-    skills: ['JavaScript', 'React', 'HTML5', 'CSS3', 'Tailwind CSS', 'Vite'],
+    skills: ['SAPUI5', 'React', 'JavaScript', 'HTML', 'CSS', 'JSP'],
   },
   {
-    title: 'Data & Storage',
+    title: 'Databases',
     icon: '🗄️',
-    skills: ['PostgreSQL', 'SQL', 'PostGIS', 'Hibernate / JPA'],
+    skills: ['SAP HANA', 'PostgreSQL', 'MySQL', 'MongoDB'],
   },
   {
-    title: 'Tools & DevOps',
+    title: 'Tools & Practices',
     icon: '🛠️',
-    skills: ['Docker', 'Git', 'Maven', 'Linux', 'Playwright', 'CI/CD'],
+    skills: ['Git', 'Kong (API Gateway)', 'Cloud Integrations', 'Agile / Scrum', 'Docker', 'Playwright'],
   },
 ];
 
@@ -28,10 +33,10 @@ const Skills = () => {
         <p className="section-subtitle">What I Know</p>
         <h2 className="section-title mb-4">Technical Skills</h2>
         <p className="text-gray-500 mb-12 text-lg">
-          ~10 years of backend engineering with a growing full-stack toolkit.
+          Nearly a decade of backend and integration engineering across enterprise and cloud environments.
         </p>
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {skillCategories.map((category) => (
             <div key={category.title} className="card p-6 flex flex-col gap-4">
               <div>
@@ -49,26 +54,6 @@ const Skills = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        {/* Architecture & patterns callout */}
-        <div className="mt-8 card p-6 border-teal-400/20">
-          <p className="text-xs uppercase tracking-widest text-gray-600 mb-3">Also experienced with</p>
-          <div className="flex flex-wrap gap-2">
-            {[
-              'API Gateways',
-              'Service Discovery',
-              'Container Orchestration',
-              'Integration Architecture',
-              'Event-Driven Systems',
-              'OpenStreetMap / Overpass API',
-              'Geocoding (Nominatim)',
-            ].map((item) => (
-              <span key={item} className="skill-badge text-xs">
-                {item}
-              </span>
-            ))}
-          </div>
         </div>
       </div>
     </section>

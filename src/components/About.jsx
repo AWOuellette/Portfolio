@@ -1,15 +1,15 @@
-import photo from '../assets/full.png';
+import photo from '../assets/headshot.png';
 
 const education = [
   {
     degree: 'M.S. Software Development',
     school: 'Boston University',
-    year: '2022',
+    year: '2024',
   },
   {
-    degree: 'B.S. Physics & Mathematics',
+    degree: 'B.S. Physics, Minor: Applied Mathematics',
     school: 'University of Massachusetts Amherst',
-    year: '2018',
+    year: '2017',
   },
 ];
 
@@ -37,23 +37,17 @@ const About = () => {
           {/* Content */}
           <div className="md:col-span-3 space-y-5 flex flex-col justify-center">
             <p className="text-gray-300 leading-relaxed text-lg">
-              I'm a Senior Software Engineer specializing in backend development, APIs, and enterprise
-              integration. I design, build, and support scalable backend systems using{' '}
+              Senior Software Engineer with nearly a decade of experience building and modernizing
+              enterprise applications and integrations. Strong background in{' '}
               <span className="text-teal-400 font-medium">Java</span>,{' '}
               <span className="text-teal-400 font-medium">Spring Boot</span>,{' '}
-              <span className="text-teal-400 font-medium">SQL</span>, and{' '}
-              <span className="text-teal-400 font-medium">ABAP</span>, along with modern web technologies
-              like JavaScript and React.
+              <span className="text-teal-400 font-medium">SAP ecosystems</span>, APIs, and
+              cloud-based integration platforms.
             </p>
             <p className="text-gray-400 leading-relaxed text-lg">
-              My work spans the full delivery lifecycle — from solution design and integration
-              architecture through development, deployment, and operational support — with hands-on
-              experience in API gateways, service discovery, container orchestration, and distributed
-              system patterns.
-            </p>
-            <p className="text-gray-400 leading-relaxed text-lg">
-              Outside of work I'm an avid hockey player, an aspiring Mandarin speaker, and I enjoy
-              building personal projects to explore new technologies.
+              Proven ability to replace legacy architectures with scalable, secure, and future-ready
+              solutions used by large global organizations. Outside of work I'm an avid hockey
+              player and an aspiring Mandarin speaker.
             </p>
 
             <div className="pt-2">
@@ -77,8 +71,8 @@ const About = () => {
               ))}
               <div className="card p-4">
                 <p className="text-gray-600 text-xs uppercase tracking-widest mb-1">Based in</p>
-                <p className="text-white font-medium text-sm">Randolph, MA</p>
-                <p className="text-gray-500 text-xs">Greater Boston Area</p>
+                <p className="text-white font-medium text-sm">Greater Boston Area</p>
+                <p className="text-gray-500 text-xs">Massachusetts</p>
               </div>
             </div>
           </div>
