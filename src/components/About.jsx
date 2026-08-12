@@ -13,7 +13,7 @@ const education = [
   },
 ];
 
-const interests = ['Hockey', 'Mandarin', 'System Design', 'Open Source'];
+const interests = ['Hockey', 'Mandarin', 'Skiing', 'Cars', 'Tennis'];
 
 const About = () => {
   return (
