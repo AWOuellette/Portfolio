@@ -2,7 +2,7 @@ const skillCategories = [
   {
     title: 'Backend & APIs',
     icon: '⚙️',
-    skills: ['Java', 'Spring Boot', 'ABAP', 'REST APIs', 'OData', 'SAP Gateway', 'RAP'],
+    skills: ['Java', 'Spring Boot', 'ABAP', 'REST APIs', 'OData', 'SAP Gateway', 'XI Proxies'],
   },
   {
     title: 'SAP & Integration',
@@ -22,7 +22,7 @@ const skillCategories = [
   {
     title: 'Tools & Practices',
     icon: '🛠️',
-    skills: ['Git', 'Kong (API Gateway)', 'Cloud Integrations', 'Agile / Scrum', 'Docker', 'Playwright'],
+    skills: ['Git', 'Kong (API Gateway)', 'Cloud Integrations', 'Agile / Scrum', 'Docker'],
   },
 ];
 

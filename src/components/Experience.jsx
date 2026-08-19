@@ -7,9 +7,8 @@ const jobs = [
     current: true,
     bullets: [
       'Design and implement modern integration solutions across SAP environments in collaboration with cross-functional teams.',
+      'Migrate from SAP PI/XI to SAP Cloud Platform Integration (CPI), owning the migration process and end to end implementation.',
       'Lead modernization efforts replacing legacy SOAP services with RESTful APIs and scalable integration patterns.',
-      'Develop services using SAP Gateway, CDS Views, and the RESTful ABAP Programming Model (RAP).',
-      'Build and deploy integrations using SAP CPI and evaluate API management solutions including SAP API Management and Kong.',
       'Contribute to technical architecture decisions, ensuring security, performance, and long-term maintainability.',
     ],
   },
