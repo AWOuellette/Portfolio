@@ -12,7 +12,7 @@ const skillCategories = [
   {
     title: 'Frontend',
     icon: '🖥️',
-    skills: ['SAPUI5', 'React', 'JavaScript', 'HTML', 'CSS', 'JSP'],
+    skills: ['SAPUI5', 'React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap', 'Tailwind CSS', 'JSP'],
   },
   {
     title: 'Databases',

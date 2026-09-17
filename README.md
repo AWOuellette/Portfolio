@@ -12,7 +12,7 @@ Personal portfolio website built with React, Vite, and Tailwind CSS. Deployed to
 |-------|-----------|
 | Framework | React 18 |
 | Build tool | Vite 5 |
-| Styling | Tailwind CSS 3 |
+| Styling | Tailwind CSS 3, Bootstrap |
 | Deployment | GitHub Pages (`gh-pages`) |
 
 ---
