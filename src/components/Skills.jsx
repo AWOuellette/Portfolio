@@ -20,6 +20,11 @@ const skillCategories = [
     skills: ['SAP HANA', 'PostgreSQL', 'MySQL', 'MongoDB'],
   },
   {
+    title: 'AWS',
+    icon: '☁️',
+    skills: ['IAM', 'ECS / EKS', 'Elastic Beanstalk', 'S3', 'CloudWatch', 'RDS', 'VPC'],
+  },
+  {
     title: 'Tools & Practices',
     icon: '🛠️',
     skills: ['Git', 'Kong (API Gateway)', 'Cloud Integrations', 'Agile / Scrum', 'Docker'],
