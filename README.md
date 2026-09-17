@@ -13,6 +13,7 @@ Personal portfolio website built with React, Vite, and Tailwind CSS. Deployed to
 | Framework | React 18 |
 | Build tool | Vite 5 |
 | Styling | Tailwind CSS 3, Bootstrap |
+| Cloud | AWS (IAM, ECS/EKS, Elastic Beanstalk, S3, CloudWatch, RDS, VPC) |
 | Deployment | GitHub Pages (`gh-pages`) |
 
 ---
