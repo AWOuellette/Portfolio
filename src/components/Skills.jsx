@@ -27,7 +27,7 @@ const skillCategories = [
   {
     title: 'Tools & Practices',
     icon: '🛠️',
-    skills: ['Git', 'Kong (API Gateway)', 'Cloud Integrations', 'Agile / Scrum', 'Docker'],
+    skills: ['Git', 'Kong (API Gateway)', 'Cloud Integrations', 'Agile / Scrum', 'Docker', 'Render'],
   },
 ];
 
