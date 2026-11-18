@@ -1,5 +1,21 @@
 const projects = [
   {
+    title: 'RinkRoundup',
+    description:
+      'Finds open ice (stick & puck, pickup hockey, public skating) at every rink near any address in the US and Canada, shown in one calendar and map. A crawler discovers where each rink publishes its schedule, and readers pull sessions from iCal feeds, town recreation sites, and booking platforms like DaySmart, with Claude reading schedule pages and PDFs no dedicated reader understands.',
+    tech: ['Java', 'Spring Boot', 'PostgreSQL', 'React', 'TypeScript', 'Leaflet', 'Claude API', 'Docker'],
+    live: 'https://rinkroundup.com/',
+    liveLabel: 'Live Site',
+    status: 'Deployed',
+  },
+  {
+    title: 'PromptPath',
+    description:
+      'Subscription app that teaches everyday beginners to use AI chatbots through short lessons and a live practice sandbox, where an AI coach gives feedback on every prompt. Free lessons lead into a Pro plan with Stripe billing, per-user AI credit limits, and a completion certificate.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Claude API', 'Stripe'],
+    status: 'In Progress',
+  },
+  {
     title: 'BU Course Inquiry',
     description:
       'Full-stack web app that helps Boston University students browse courses, read peer reviews, and discover tips for succeeding in specific classes. Admins manage course listings through a secured API.',
@@ -98,14 +114,16 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-5 pt-2 border-t border-gray-800">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-500 hover:text-teal-400 text-sm transition-colors duration-200 font-medium"
-                >
-                  GitHub <ArrowIcon />
-                </a>
+                {project.github && (
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-500 hover:text-teal-400 text-sm transition-colors duration-200 font-medium"
+                  >
+                    GitHub <ArrowIcon />
+                  </a>
+                )}
                 {project.live && (
                   <a
                     href={project.live}
@@ -115,6 +133,9 @@ const Projects = () => {
                   >
                     {project.liveLabel ?? 'Live Demo'} <ArrowIcon />
                   </a>
+                )}
+                {!project.github && !project.live && (
+                  <span className="text-gray-600 text-sm font-medium">Private repository</span>
                 )}
               </div>
             </div>
