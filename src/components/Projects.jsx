@@ -13,7 +13,9 @@ const projects = [
     description:
       'Subscription app that teaches everyday beginners to use AI chatbots through short lessons and a live practice sandbox, where an AI coach gives feedback on every prompt. Free lessons lead into a Pro plan with Stripe billing, per-user AI credit limits, and a completion certificate.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'PostgreSQL', 'Claude API', 'Stripe'],
-    status: 'In Progress',
+    live: 'https://www.promptpathai.com/',
+    liveLabel: 'Live Site',
+    status: 'Deployed',
   },
   {
     title: 'BU Course Inquiry',
