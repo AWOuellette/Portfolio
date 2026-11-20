@@ -19,7 +19,7 @@ const jobs = [
     period: '2019 – Jan 2025',
     bullets: [
       'Developed and maintained COMPstream, a cloud-based SAP SuccessFactors extension for enterprise compensation management.',
-      'Implemented Java- and SQL-based processes integrating SAP SuccessFactors via OData APIs.',
+      'Implemented Java and SQL-based processes integrating SAP SuccessFactors via OData APIs.',
       'Led development of a global payroll reporting solution supporting 30,000+ employees across 40+ countries.',
       'Full-stack contributor to analytics applications across SAPUI5, Spring Boot, and SAP HANA.',
       'Served as lead developer for SAP Cloud Platform Integration (CPI) solutions.',
