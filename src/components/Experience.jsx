@@ -1,6 +1,6 @@
 const jobs = [
   {
-    title: 'SAP Developer',
+    title: 'Senior SAP Developer',
     company: 'MassMutual',
     location: 'Boston, MA (Hybrid)',
     period: 'Feb 2025 – Present',
